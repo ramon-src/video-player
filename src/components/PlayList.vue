@@ -15,13 +15,15 @@
                 <nav class="level is-mobile">
                     <div class="level-left">
                         <a class="level-item">
-                            <span class="icon is-small"><i class="fa fa-reply"></i></span>
+                            <span class="icon is-small">
+                                <i class="fa fa-reply"></i>
+                            </span>
                         </a>
                     </div>
                     <div class="level-right">
                         <p>
-                        {{ video.snippet.publishedAt }}
-                    </p>
+                            {{ video.snippet.publishedAt }}
+                        </p>
                     </div>
                 </nav>
             </div>
@@ -58,11 +60,11 @@ export default {
 </script>
 
 <style lang="scss">
-    #playlist{
-        margin-left: 70px;
-        border: 1px solid #EDEDED;
-        .media{
-            margin: 10px;
-        }
+#playlist {
+    margin-left: 70px;
+    border: 1px solid #EDEDED;
+    .media {
+        margin: 10px;
     }
+}
 </style>
